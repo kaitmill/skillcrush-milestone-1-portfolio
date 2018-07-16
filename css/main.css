@@ -15,6 +15,10 @@
 	float: left;
 }
 
+.left {
+	margin-left: 100px;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #095256;
@@ -48,10 +52,27 @@ header p {
 
 /* * Portfolio Styles * */
 
+#portfolio h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+}
+
+#portfolio h3,
+#portfolio p {
+	font-size: 25px;
+}
 
 
+#portfolio p {
+	margin-top: -20px;
+	margin-bottom: 60px;
+}
 
-
+.portfolio-img {
+	border: solid 1px #2c3233;
+}
 
 /* * About Styles * */
 

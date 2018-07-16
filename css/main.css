@@ -15,12 +15,34 @@
 	float: left;
 }
 
-
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #095256;
+}
 
 /* * Header Styles * */
 
+header {
+	background-image: url("../img/hero-image.png");
+	height: 800px;
+	background-repeat: none;
+}
 
 
+header h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	color: #bdbf09;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 350px;
+	margin: 0;
+}
+
+header p {
+	font-size: 48px;
+	text-align: center;
+}
 
 
 
